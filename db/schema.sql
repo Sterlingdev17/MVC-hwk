@@ -1,5 +1,5 @@
 CREATE DATABASE Sterling_burgerDB;
-USE cat_db;
+USE Sterling_burgerDB;
 
 CREATE TABLE burger
 (
