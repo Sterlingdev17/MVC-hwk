@@ -1,7 +1,9 @@
-CREATE DATABASE Sterling_burgerDB;
-USE Sterling_burgerDB;
+### Schema
 
-CREATE TABLE burger
+CREATE DATABASE cat_db;
+USE cat_db;
+
+CREATE TABLE cats
 (
 	id int NOT NULL AUTO_INCREMENT,
 	name varchar(255) NOT NULL,
