@@ -1,32 +1,57 @@
 body {
-  background-color: skyblue;
+  font-size: 15px;
 }
+
+.title{
+text-align: center;
+border: 1px;
+}
+
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  
+  font-size: 15px;
 }
 
 .label {
   font-weight: bold;
+  font-size: 15px;
 }
+
+
 
 .create-update-form {
   padding: 5px;
   margin: 5px;
-
+  font-size: 15px;
 }
+
+
 
 .form-group {
   margin-bottom: 5px;
+  font-size: 10px;
 }
 
-.eat{
-  background-color: ;
+
+
+
+.h2{
+  font-size: 25px;
+}
+
+
+
+.col{
   margin: 20px;
+  background-color: skyblue;
 }
 
-.eaten{
-  float: left;
-  margin: 50px;
+.foot {
+  text-align: center;
+  
+
+  
+  
 }

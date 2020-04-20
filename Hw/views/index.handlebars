@@ -1,9 +1,9 @@
-<div><h1>Sterling Delicious burgers!</h1></div>
+<div class="title"><h1>Sterling Delicious burgers!</h1></div>
 
 <div class="container">
   <div class="row">
     <div class="col">
-<h2>burgers that have been eaten!</h2>
+<h2 class="h2">burgers that have been eaten!</h2>
 
 <ul>
   {{#each burgers}}
@@ -16,7 +16,7 @@
 
 
 <div class="col">
-<h2>burgers that are ready to eat!</h2>
+<h3 class="h2">burgers that are ready to eat!</h3>
 
 <ul>
   {{#each burgers}}
@@ -29,7 +29,8 @@
 </div>
 </div>
 
-<div>
+<div class="container foot">
+
 <h2>Add a burger</h2>
 <form class="create-form">
 
@@ -44,6 +45,7 @@
     <input type="radio" name="sleepy" value="0"> HAVE BEEN EATEN
   </div>
 
-  <button type="submit">Add burger</button>
+  <button class="btn btn-success" type="submit">Add burger</button>
+
 </form>
 </div>

@@ -1,6 +1,6 @@
 ### Schema
 
-CREATE DATABASE cat_db;
+CREATE DATABASE Sterlingburgers_db;
 USE cat_db;
 
 CREATE TABLE cats
