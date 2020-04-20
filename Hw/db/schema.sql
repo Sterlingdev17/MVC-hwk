@@ -1,12 +1,13 @@
 ### Schema
 
-CREATE DATABASE Sterlingburgers_db;
-USE cat_db;
+CREATE DATABASE Sterling_burgersDB;
+USE Sterling_burgersDB;
 
-CREATE TABLE cats
+
+CREATE TABLE Burgers
 (
 	id int NOT NULL AUTO_INCREMENT,
 	name varchar(255) NOT NULL,
-	sleepy BOOLEAN DEFAULT false,
+	crush BOOLEAN DEFAULT false,
 	PRIMARY KEY (id)
 );

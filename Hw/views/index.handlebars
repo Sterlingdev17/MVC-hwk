@@ -7,7 +7,7 @@
 
 <ul>
   {{#each burgers}}
-    {{#unless sleepy}}
+    {{#unless crush}}
       {{> burgers/burger-block sleep=true}}
     {{/unless}}
   {{/each}}
@@ -20,7 +20,7 @@
 
 <ul>
   {{#each burgers}}
-    {{#if sleepy}}
+    {{#if crush}}
       {{> burgers/burger-block sleep=false}}
     {{/if}}
   {{/each}}
@@ -40,9 +40,9 @@
   </div>
 
   <div class="form-group">
-    <label for="sleepy">EATEN OR EAT?</label><br>
-    <input type="radio" name="sleepy" value="1" checked> READY TO EAT!<br>
-    <input type="radio" name="sleepy" value="0"> HAVE BEEN EATEN
+    <label for="crush">EATEN OR EAT?</label><br>
+    <input type="radio" name="crush" value="1" checked> READY TO EAT!<br>
+    <input type="radio" name="crush" value="0"> HAVE BEEN EATEN
   </div>
 
   <button class="btn btn-success" type="submit">Add burger</button>
